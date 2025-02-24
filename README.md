@@ -8,7 +8,7 @@
 | -- | -- |
 | 202401000019  |  Enzo Guedes  |
 | 202401553867 |  Luca Confente |
-| xx/xxxxxx  |  Guilherme Lopes |
+| 202401632472  |  Guilherme Lopes |
 | xx/xxxxxx  |  Pedro Henrique |
 | xx/xxxxxx  |  Felipe Sales |
 
