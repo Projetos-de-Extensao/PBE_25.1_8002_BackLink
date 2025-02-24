@@ -10,7 +10,7 @@
 | 202401553867 |  Luca Confente |
 | 202401632472  |  Guilherme Lopes |
 | xx/xxxxxx  |  Pedro Henrique |
-| xx/xxxxxx  |  Felipe Sales |
+| 202402011359  |  Felipe Sales |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
