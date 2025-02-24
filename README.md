@@ -6,16 +6,16 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
  
  (Apague essa seção)
 
-# BackLink
+# BackLink 
 
-**Número do Grupo**: Gurpo 1
-**Código da Disciplina**: FGA0208-T01<br>
+**Número do Grupo**: Gurpo 1<br>
+**Código da Disciplina**: IBM8936<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| Enzo Guedes  |  xxxx xxxx xxxxx |
-| Luca Confente |  xxxx xxxx xxxxx |
+| xx/xxxxxx  |  Enzo Guedes  |
+| xx/xxxxxx |  Luca Confente |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
