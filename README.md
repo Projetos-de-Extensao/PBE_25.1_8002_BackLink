@@ -1,7 +1,7 @@
 # Back-Link 
 
-**Número do Grupo**: Gurpo 1<br>
-**Código da Disciplina**: IBM8936<br>
+**Número do Grupo**: Gurpo I<br>
+**Turma**: 8002<br>
 
 ## Alunos
 |Matrícula | Aluno |
