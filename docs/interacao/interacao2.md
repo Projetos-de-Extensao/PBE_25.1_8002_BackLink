@@ -25,7 +25,11 @@ title: Interação 2
 * Domicílios: Qualidade do domicílio, tipo de domicílio, número de comodos, material de contrução, destino do lixo, iluminação, abastecimento da água e acesso a internet.
 * Educação : Taxa de analfabetismo, frequencia a escola, 
 Estes dados são cruciais para o planejamento de políticas públicas e pesquisas acadêmicas. 
-
+* Saúde: Acesso a serviços de saúde, cobertura de planos de saúde, vacinação, mortalidade infantil, expectativa de vida.
+* Mobilidade: Tempo de deslocamento para o trabalho, meio de transporte utilizado, migração interna e externa.
+* Trabalho e Renda: Tipo de ocupação, setor de atividade, jornada de trabalho, renda per capita, taxa de desemprego.
+* Família e Condições de Vida: Estrutura familiar, número de filhos por mulher, acesso a programas sociais, arranjos domiciliares.
+* Infraestrutura Urbana e Saneamento: Esgotamento sanitário, pavimentação, coleta de lixo, acesso a energia elétrica.
 
 2- Para a obtenção desses dados é preciso verificar com instituições governamentais locais, como prefeituras e secretarias estaduais de meio ambiente ou urbanismo que possam ter informações sobre a Ilha Primeira. Consultar ONGs que trabalham na sustentabilidade e desenvolvimento regional. 
 
