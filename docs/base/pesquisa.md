@@ -1,9 +1,9 @@
 ---
-id: interação2
-title: Interação 2
+id: pesquisa
+title: Pequisa IBGE
 ---
 
-# Interação 2 (07/03/25 à 20/03/2025)
+# Pesquisa 1 IBGE (07/03/25 à 20/03/2025)
 
 ##  Pesquisar o contexto de pesquisas sobre o Censo Demográfico do IBGE
 
