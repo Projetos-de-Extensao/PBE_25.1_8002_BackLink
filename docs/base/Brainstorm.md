@@ -13,12 +13,16 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
 A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Guedes foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
+
+
 # Brainstorm
  
 <!-- ## Versão 1.0 -->
  
 ## Perguntas
  
+
+
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
@@ -34,8 +38,10 @@ A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Gued
 <b>Pedro Henrique</b> - A plataforma deve gerenciar os dados criando graficos e relações.
 </p>
  
+
 ---
  
+
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
@@ -62,7 +68,9 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
 <b>Pedro Henrique</b> - O cliente terá os beneficios dos dados, assim podendo gerenciar melhor os problemas da ilha.
  
 ---
- 
+ <!-- Faz parte do Projeto?  -->
+
+
 <!-- ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
@@ -83,15 +91,19 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b>Enzo Guedes</b> - Com é feita a locomoção para chegar até a Ilha Primeira?
+<b>Enzo Guedes</b> - <strong> Com é feita a locomoção para chegar até a Ilha Primeira? <strong>
+
    Quanto custa um táxi náutico da Praia do Dentista até a Ilha Primeira?
    A Ilha Primeira é acessível para cadeirantes?
    Qual é o ponto de embarque e desembarque dos táxis náuticos na Ilha Primeira?
    Existe algum serviço de transporte público ou privado (balsa, etc.) que vai até a Ilha Primeira?
  
-<b>Guilherme</b> - Como é a locomoção dentro da ilha?
+
+<b>Guilherme</b> - <strong> "Quais são as principais iniciativas e projetos que a plataforma pode impulsionar para promover o turismo sustentável na Ilha Primeira, beneficiando tanto os moradores quanto os visitantes?" <strong>
  
-<b>Luca</b> - Como é feita a entrega de encomendas, como Ifood e mercadorias?
+
+<b>Luca</b> - <strong> Como é feita a entrega de encomendas, como Ifood e mercadorias? <strong>
+
    Quais são os principais tipos de serviços de entrega de encomendas disponíveis no mercado? (Correios, transportadoras, serviços de courier, etc.)
    Como as empresas de entrega calculam o frete de uma encomenda? (Peso, dimensões, distância, etc.)
    Qual é a responsabilidade do iFood em relação à qualidade da comida e à segurança alimentar?
@@ -103,7 +115,8 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
    Quais são as tendências futuras na área de entrega de mercadorias? (Drones, veículos autônomos, etc.)
    <!-- Como a pandemia de COVID-19 afetou o setor de entrega de mercadorias? -->
 
-<b>Pedro Henrique</b> - Como é são feitas as ações do pronto socorro?
+<b>Pedro Henrique</b> - <strong> Como é são feitas as ações do pronto socorro? <strong>
+
    Como é feita a triagem dos pacientes que chegam ao pronto socorro? Quais são os critérios utilizados para classificar a gravidade dos casos?
    Quais são os diferentes níveis de prioridade na triagem e como eles influenciam o tempo de espera para atendimento?
    Como é organizada a escala de trabalho dos profissionais do pronto socorro? (Plantões, horários, etc.)
@@ -122,6 +135,10 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
    Existe algum treinamento específico para os moradores da ilha em relação a primeiros socorros e atendimento de emergência?
    Como é feita a remoção de pacientes graves da Ilha Primeira para hospitais em Angra dos Reis ou outras localidades? (Barco, helicóptero, etc.)
    Quais são os recursos disponíveis para lidar com emergências médicas durante a noite?
+
+
+
+
 ---
 <!-- 
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
@@ -140,6 +157,7 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
    
 </p>
  
+
 ### Requisitos elicitados
  
 |ID|Descrição|
@@ -160,6 +178,7 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
 |BS14| O produto...|
 |BS15| O produto...|
  
+
 ## Conclusão
 <p align = "justify">
 Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
