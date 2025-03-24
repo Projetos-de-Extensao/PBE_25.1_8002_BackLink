@@ -40,12 +40,24 @@ A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Gued
  
 <p align = "justify">
 <b>Enzo Guedes</b> - O moderador deverá fazer login e cadastrar sua moradia.
- 
+O morador deverá fornecer um endereço de e-mail válido e criar uma senha forte para proteger sua conta.
+Caso não possua e-mail, poderá utilizar um número de telefone celular para receber um código de verificação.
+
+
 <b>Luca</b> - O cliente deverá preeencher um formulário de dados sócio econômicos.
+Dados Pessoais: Nome completo, data de nascimento, CPF, RG, sexo, estado civil, etc.
+Contato: Telefone e e-mail (opcional).
+Endereço: Endereço completo na Ilha Primeira (nome do rio/canal, número da casa, bairro, etc.). Utilizar um mapa interativo para facilitar a localização
+Dados Socioeconômicos: Nível de escolaridade, profissão, renda familiar, número de dependentes, etc.
+ 
  
 <b>Guilherme</b> - Com o usuário logado, ele poderar acessar dados da ilha.
 
-<b>Felipe</b> - O cliente deverá logar com email, senha e CPF.
+<!-- Em casos de cadastro -->
+
+<b>Felipe</b> - Exibir uma mensagem de confirmação e agradecimento pelo cadastro.
+Enviar um e-mail ou SMS de boas-vindas com informações úteis sobre a plataforma e os serviços disponíveis.
+Redirecionar o usuário para a página inicial da plataforma ou para o seu perfil.
  
 <b>Pedro Henrique</b> - O cliente terá os beneficios dos dados, assim podendo gerenciar melhor os problemas da ilha.
  
@@ -72,7 +84,6 @@ A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Gued
 
 <p align = "justify">
 <b>Enzo Guedes</b> - Com é feita a locomoção para chegar até a Ilha Primeira?
-   Quais são os horários dos passeios de barco para a Ilha Primeira?
    Quanto custa um táxi náutico da Praia do Dentista até a Ilha Primeira?
    A Ilha Primeira é acessível para cadeirantes?
    Qual é o ponto de embarque e desembarque dos táxis náuticos na Ilha Primeira?
