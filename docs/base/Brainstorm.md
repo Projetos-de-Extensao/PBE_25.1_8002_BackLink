@@ -72,13 +72,45 @@ A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Gued
 
 <p align = "justify">
 <b>Enzo Guedes</b> - Com é feita a locomoção para chegar até a Ilha Primeira?
+   Quais são os horários dos passeios de barco para a Ilha Primeira?
+   Quanto custa um táxi náutico da Praia do Dentista até a Ilha Primeira?
+   A Ilha Primeira é acessível para cadeirantes?
+   Qual é o ponto de embarque e desembarque dos táxis náuticos na Ilha Primeira?
+   Existe algum serviço de transporte público ou privado (balsa, etc.) que vai até a Ilha Primeira?
  
-<b>Luca</b> - Como é a locomoção dentro da ilha?
+<b>Guilherme</b> - Como é a locomoção dentro da ilha?
  
-<b>Guilherme</b> - Como é feita a entrega de encomendas, como Ifood e mercadorias?
+<b>Luca</b> - Como é feita a entrega de encomendas, como Ifood e mercadorias?
+   Quais são os principais tipos de serviços de entrega de encomendas disponíveis no mercado? (Correios, transportadoras, serviços de courier, etc.)
+   Como as empresas de entrega calculam o frete de uma encomenda? (Peso, dimensões, distância, etc.)
+   Qual é a responsabilidade do iFood em relação à qualidade da comida e à segurança alimentar?
+   Como o iFood calcula o valor da taxa de entrega para cada pedido?
+   Quais são as opções de entrega oferecidas pelas lojas online? (Entrega expressa, entrega agendada, retirada na loja, etc.)
+   Como as lojas online gerenciam o estoque e a logística de entrega?
+   Como as lojas online lidam com a troca e devolução de produtos?
+   Como as empresas de e-commerce minimizam o impacto ambiental das entregas?
+   Quais são as tendências futuras na área de entrega de mercadorias? (Drones, veículos autônomos, etc.)
+   <!-- Como a pandemia de COVID-19 afetou o setor de entrega de mercadorias? -->
 
 <b>Pedro Henrique</b> - Como é são feitas as ações do pronto socorro?
-
+   Como é feita a triagem dos pacientes que chegam ao pronto socorro? Quais são os critérios utilizados para classificar a gravidade dos casos?
+   Quais são os diferentes níveis de prioridade na triagem e como eles influenciam o tempo de espera para atendimento?
+   Como é organizada a escala de trabalho dos profissionais do pronto socorro? (Plantões, horários, etc.)
+   Quais são os protocolos de segurança adotados para proteger pacientes e funcionários?
+   Como é feito o gerenciamento de leitos no pronto socorro?
+   Como é feita a comunicação entre os diferentes setores do pronto socorro?
+   Como é feito o atendimento a pacientes com traumas graves?
+   
+   Qual é o protocolo de primeiros socorros e atendimento de emergência disponível?
+   Quem são os responsáveis por prestar os primeiros socorros na ilha? (Moradores treinados, funcionários de estabelecimentos, etc.)
+   Existe algum posto de saúde ou ambulatório na Ilha Primeira? Se sim, qual é a sua capacidade de atendimento?
+   Quais são os equipamentos e medicamentos básicos disponíveis no posto de saúde (se houver) ou para os socorristas da ilha?
+   Como é feita a comunicação em caso de emergência na ilha? Existe algum sistema de comunicação com hospitais ou serviços de resgate em Angra dos Reis?
+   Qual é o tempo estimado para que uma equipe de resgate chegue à Ilha Primeira em caso de emergência?
+   Quais são os tipos de emergência mais comuns que ocorrem na Ilha Primeira? (Afogamentos, acidentes com embarcações, ferimentos, etc.)
+   Existe algum treinamento específico para os moradores da ilha em relação a primeiros socorros e atendimento de emergência?
+   Como é feita a remoção de pacientes graves da Ilha Primeira para hospitais em Angra dos Reis ou outras localidades? (Barco, helicóptero, etc.)
+   Quais são os recursos disponíveis para lidar com emergências médicas durante a noite?
 ---
 <!-- 
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
