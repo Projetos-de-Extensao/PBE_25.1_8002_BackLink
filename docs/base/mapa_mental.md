@@ -24,10 +24,34 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 [![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
  
  
-### Mapa mental 2
+### Mapa mental Inicial
  
-[![Mapa mental Brainstorm](../assets/Mapas_mentais/...png)](assets/Mapas_mentais/....png)
+[![Mapa mental Brainstorm](../assets/Mapas_mentais/mapamental01.png)](assets/Mapas_mentais/mapamental.01png)
  
+
+@startmindmap
+
+* Coleta de Dados da Ilha Primeira  <<#lightblue>>
+** Objetivos <<#lightgreen>>
+*** Identificar problemas locais
+*** Auxiliar a associação de moradores
+*** Propor soluções baseadas em dados
+** Coleta de Dados <<#yellow>>
+*** Questionários com moradores
+*** Entrevistas com líderes comunitários
+*** Análise de dados públicos
+** Infraestrutura <<#yellow>>
+*** Banco de Dados
+*** API para armazenamento
+*** Dashboard para visualização
+** Impacto Esperado <<#lightgreen>>
+*** Melhor qualidade de vida
+*** Decisões baseadas em dados
+*** Maior participação da comunidade
+
+@endmindmap
+
+
 ## Conclusão
  
 <p align = "justify">
