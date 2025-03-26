@@ -138,12 +138,11 @@ Redirecionar o usuário para a página inicial da plataforma ou para o seu perfi
 
 
 
-
 ---
 <!-- 
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
-<b>XXX</b> - O cliente....
+<b>XXX</b> - O cliente.....
 </p>
 -->
 
