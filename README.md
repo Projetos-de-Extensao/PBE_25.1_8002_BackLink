@@ -13,7 +13,7 @@
 | 202402011359  |  Felipe Sales |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Será um aplicativo Web, para que seja feita a coleta de dados dos moradores da Ilha Primeira. Para auxiliar a população ter o controle maior sobre os problemas da ilha e como resolver-los.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
