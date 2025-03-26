@@ -13,9 +13,9 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
 A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
-## Brainstorm
+# Brainstorm
  
-## Versão 1.0
+<!-- ## Versão 1.0 -->
  
 ## Perguntas
  
