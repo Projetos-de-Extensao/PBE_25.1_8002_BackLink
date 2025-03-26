@@ -10,7 +10,7 @@ O brainstorm é uma técnica de elicitação de requisitos que consiste em reuni
  
 ## Metodologia
 <p align = "justify">
-A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .... e terminou..., onde o XXXX XXXX foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
+A equipe se reuniu para debater ideias gerais sobre o projeto , onde o Enzo Guedes foi o moderador, direcionando a equipe com questões pré-elaboradas, e transcrevendo as respostas para o documento.
 </p>
  
 # Brainstorm
@@ -78,6 +78,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 <b>Guilherme</b> - Como é feita a entrega de encomendas, como Ifood e mercadorias?
 
 <b>Pedro Henrique</b> - Como é são feitas as ações do pronto socorro?
+
 ---
 <!-- 
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
