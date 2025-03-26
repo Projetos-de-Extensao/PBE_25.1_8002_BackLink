@@ -17,18 +17,30 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ## Mapa mental - Geral.
  
-## Versão 1.0
- 
 ### Mapa mental 1
  
-[![Mapa mental Entrevista](../assets/Mapas_mentais/....png)](../assets/Mapas_mentais/...png)
+
+
+<!-- @startmindmap
+
+* Levantamento de problemas da Ilha Primeira
+** Concentração de lixo 
+** Falta de espaço
+*** Ruas pequenas
+*** Fluxo de carros (Entrada e saida de carro)
+** Intervenção policial
+** Atendimento médico
+** Entrega de Encomendas
+*** Ifood
+*** Mercadoria
+@endmindmap
+-->
  
- 
-### Mapa mental Inicial
+### Mapa mental 2
  
 [![Mapa mental Brainstorm](../assets/Mapas_mentais/mapamental01.png)](assets/Mapas_mentais/mapamental.01png)
  
-
+<!--
 @startmindmap
 
 * Coleta de Dados da Ilha Primeira  <<#lightblue>>
@@ -50,7 +62,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 *** Maior participação da comunidade
 
 @endmindmap
-
+-->
 
 ## Conclusão
  
