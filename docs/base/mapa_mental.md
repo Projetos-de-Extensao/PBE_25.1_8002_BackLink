@@ -71,11 +71,9 @@ O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, 
 </p>
  
 ## Referências
-> Mapa MentalXXX,  Disponível em: https://www.....
  
-> Ferramentas para Mapas Mentais. Disponível em: https://www....
+> Ferramentas para Mapas Mentais. Disponível em: https://www.planttext.com/
  
-> Plataforma para usuários colaborar no desenho... Disponível em: https://...
  
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
