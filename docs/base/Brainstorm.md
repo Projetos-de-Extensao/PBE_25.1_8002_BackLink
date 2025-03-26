@@ -22,16 +22,16 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>Enzo Guedes</b> - Deve ser uma plataforma onde os moradores possam cadastrar seus dados, para a forma do censo.
 </p>
  
-<b>ZZZ</b> - A plataforma deve fornece...
+<b>Luca</b> - A plataforma deve armazenar os dados populacionais da ilha. 
  
-<b>YYYY</b> - O objetivo da aplicação é....
+<b>Guilherme</b> - O objetivo da aplicação é ajudar os moradores da Ilha Primeira a identificar os problemas da região.
  
-<b>WWWW</b> - O principal objetivo da aplicação é a...
+<b>Felipe</b> - O principal objetivo da aplicação é a melhorar a qualidade de vida do moradores.
  
-<b>KKKK</b> - A plataforma deve gerenciar...
+<b>Pedro Henrique</b> - A plataforma deve gerenciar os dados criando graficos e relações.
 </p>
  
 ---
@@ -39,22 +39,22 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 2. Como será o processo para cadastrar um novo clientetorneio?
  
 <p align = "justify">
-<b>XXXX</b> - O moderador deverá fazer login e...
+<b>Enzo Guedes</b> - O moderador deverá fazer login e cadastrar sua moradia.
  
-<b>YYYY</b> - O cliente...
+<b>Luca</b> - O cliente deverá preeencher um formulário de dados sócio econômicos.
  
-<b>WWWW</b> - Com o usuário logado, ele deverá...
+<b>Guilherme</b> - Com o usuário logado, ele poderar acessar dados da ilha.
 
-<b>ZZZZ</b> - O cliente...
+<b>Felipe</b> - O cliente deverá logar com email, senha e CPF.
  
-<b>KKK</b> - O cliente...
+<b>Pedro Henrique</b> - O cliente terá os beneficios dos dados, assim podendo gerenciar melhor os problemas da ilha.
  
 ---
  
-### 3. Como será a forma de adicionar produtos?
+<!-- ### 3. Como será a forma de adicionar produtos?
  
 <p align = "justify">
-<b>XXXX</b> - O cliente ao cadastrar...
+<b>Enzo Guedes</b> - O cliente ao cadastrar 
 </p>
  
 <p align = "justify">
@@ -66,24 +66,26 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 <b>XXXX</b> - O produto....
 
  
----
+--- -->
  
 ### 4. Outras perguntas pertinentes ao contexto
 
 <p align = "justify">
-<b>XXXX</b> - Com a localização...
+<b>Enzo Guedes</b> - Com é feita a locomoção para chegar até a Ilha Primeira?
  
-<b>YYYY</b> - O cliente...
+<b>Luca</b> - Como é a locomoção dentro da ilha?
  
-<b>ZZZ</b> - O cliente...
- 
+<b>Guilherme</b> - Como é feita a entrega de encomendas, como Ifood e mercadorias?
+
+<b>Pedro Henrique</b> - Como é são feitas as ações do pronto socorro?
 ---
- 
+<!-- 
 ### 5. "Outras perguntas pertinentes ao contexto", Como seria a forma de adicionar do cliente adicionar os produtos ?
 <p align = "justify">
 <b>XXX</b> - O cliente....
 </p>
- 
+-->
+
 ### 6. Quais informações seriam interessante para o cliente?
 <p align = "justify">
    <b>XXX</b> - Informações...
