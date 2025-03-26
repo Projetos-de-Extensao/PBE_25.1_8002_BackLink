@@ -19,7 +19,7 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
  
 ### Mapa mental 1
  
-
+[![Mapa mental Brainstorm](../assets/Mapas_mentais/mapamental2.png)](assets/Mapas_mentais/mapamental2png)
 
 <!-- @startmindmap
 
