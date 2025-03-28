@@ -24,6 +24,18 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 ### Versão 1.0
 
 
+Este diagrama oferece uma visão clara e organizada da arquitetura de classes, tornando compreensível a interação entre diferentes componentes do sistema e suas responsabilidades.
+
+
+![Diagrama de Classes](../assets/Diagrama_de_Classes/Diagrama_de_classes_01.png)
+
+
+
+  
+
+
+
+
 
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes.png)](../assets/diagrama_de_classes/diagrama_de_classes.png)
 
