@@ -22,7 +22,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via..., começou .
 ### 1. Qual o objetivo principal da aplicação?
  
 <p align = "justify">
-<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa...
+<b>XXXX</b> - Deve ser uma plataforma onde qualquer pessoa possa  
 </p>
  
 <b>ZZZ</b> - A plataforma deve fornece...
