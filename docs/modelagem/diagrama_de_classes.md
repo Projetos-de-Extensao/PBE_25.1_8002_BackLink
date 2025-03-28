@@ -30,7 +30,36 @@ Este diagrama oferece uma visão clara e organizada da arquitetura de classes, t
 ![Diagrama de Classes](../assets/Diagrama_de_Classes/Diagrama_de_classes_01.png)
 
 
+<strong>  - Pacote: Usuários  <strong>
+Usuário: Classe base genérica da qual todas as outras classes de usuários herdam.
+Recenseador: Especializado em trabalhar com formulários.
+Administrador: Responsável pela gestão do editor de formulários.
+Usuário Público: Limita-se a visualizações no dashboard.
 
+   <strong>  - Formularios e Editor <strong>
+Formulário: Onde os dados são coletados.
+Editor de Formulário: Ferramenta de gerenciamento e edição dos formulários por parte dos administradores.
+
+
+   <strong>  - Informações <strong>
+Moradia e Informação Morador: Dados básicos de domicílios e seus ocupantes.
+Características do Domicílio, Identificação Étnico-Racial, Registro Civil, Educação: Diferentes aspectos dos dados demográficos coletados.
+Resultado do Formulário: Que armazena os dados processados e compilados.
+
+   <strong> Dashboard> <strong>
+Dashboard: Interface que permite visualizações e análises dos resultados compilados.
+
+
+Usuários e suas funções: Cada tipo de usuário desempenha funções específicas no sistema, por exemplo:
+
+
+   <strong> Relacionamentos <strong>
+Recenseadores usam formulário para coleta de dados.
+Administradores gerenciam o editor de formulários.
+Usuários públicos têm acesso ao dashboard para visualização.
+Coleta de Dados: Os formulários são essenciais para a coleta de diversos tipos de informações, como habitação e características dos moradores.
+
+Dashboard e Resultados: Os resultados colhidos e processados alimentam o dashboard, que é onde as informações são centralizadas e visualizadas.
   
 
 
