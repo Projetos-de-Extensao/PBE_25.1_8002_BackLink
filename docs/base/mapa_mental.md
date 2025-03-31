@@ -2,29 +2,28 @@
 id: mapa_mental
 title: Mapas Mentais
 ---
- 
+
 ## Introdução
- 
+
 <p align = "justify">
 Mapa mental consiste em criar resumos cheios de símbolos, cores, setas e frases de efeito com o objetivo de organizar o conteúdo e facilitar associações entre as informações destacadas. Esse material é muito indicado para pessoas que têm facilidade de aprender de forma visual.
 </p>
- 
+
 ## Metodologia
- 
+
 <p align = "justify">
 Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa mental. O documento foi produzido utilizando a ferramenta...
 </p>
- 
-## Mapa mental - Geral.
- 
-### Mapa mental 1
- 
+
+## Mapa mental
+
+
 [![Mapa mental Brainstorm](../assets/Mapas_mentais/mapamental2.png)](assets/Mapas_mentais/mapamental2png)
 
 <!-- @startmindmap
 
 * Levantamento de problemas da Ilha Primeira
-** Concentração de lixo 
+** Concentração de lixo
 ** Falta de espaço
 *** Ruas pequenas
 *** Fluxo de carros (Entrada e saida de carro)
@@ -35,11 +34,11 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 *** Mercadoria
 @endmindmap
 -->
- 
-### Mapa mental 2
- 
+
+---
+
 [![Mapa mental Brainstorm](../assets/Mapas_mentais/mapamental01.png)](assets/Mapas_mentais/mapamental.01png)
- 
+
 <!--
 @startmindmap
 
@@ -65,16 +64,16 @@ Foi levantado um ponto importante sobre o app e, assim, foi produzido o mapa men
 -->
 
 ## Conclusão
- 
+
 <p align = "justify">
 O mapa mental é uma ficha de estudos que ajuda a dar uma visão geral do tema, e ajuda a fixar os pontos mais importantes sobre o app.
 </p>
- 
+
 ## Referências
- 
-> Ferramentas para Mapas Mentais. Disponível em: https://www.planttext.com/
- 
- 
+
+> Ferramentas para Mapas Mentais. Disponível em: [PlantText](https://www.planttext.com/)
+
+
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |

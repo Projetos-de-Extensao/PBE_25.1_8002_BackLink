@@ -5,10 +5,9 @@ theme:
   palette:
     primary: blue
     
-  color_mode: dark
   locale: pt_BR
   language: pt-BR
-  
+
   font:
     text: Roboto
     code: Roboto Mono
