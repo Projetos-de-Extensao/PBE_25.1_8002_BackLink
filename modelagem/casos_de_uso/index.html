@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Metodologia - PBE_25.1_8002_Grupo1</title>
+        <title>Casos de Uso - PBE_25.1_8002_Grupo1</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -38,39 +38,39 @@
                                 <a href="../.." class="nav-link">Bem vindo do Grupo Back-Link</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Base</a>
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Base</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../5w2h/" class="dropdown-item">5W2H</a>
+    <a href="../../base/5w2h/" class="dropdown-item">5W2H</a>
 </li>
                                     
 <li>
-    <a href="../Brainstorm/" class="dropdown-item">Brainstorm</a>
+    <a href="../../base/Brainstorm/" class="dropdown-item">Brainstorm</a>
 </li>
                                     
 <li>
-    <a href="../documento_de_visao/" class="dropdown-item">Documento de Visão</a>
+    <a href="../../base/documento_de_visao/" class="dropdown-item">Documento de Visão</a>
 </li>
                                     
 <li>
-    <a href="../entrevista/" class="dropdown-item">Entrevista</a>
+    <a href="../../base/entrevista/" class="dropdown-item">Entrevista</a>
 </li>
                                     
 <li>
-    <a href="../mapa_mental/" class="dropdown-item">Mapas Mentais</a>
+    <a href="../../base/mapa_mental/" class="dropdown-item">Mapas Mentais</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">Metodologia</a>
+    <a href="../../base/metodologia/" class="dropdown-item">Metodologia</a>
 </li>
                                     
 <li>
-    <a href="../pesquisa/" class="dropdown-item">Pequisa IBGE</a>
+    <a href="../../base/pesquisa/" class="dropdown-item">Pequisa IBGE</a>
 </li>
                                     
 <li>
-    <a href="../prototipo_alta_fidelidade/" class="dropdown-item">Protótipo</a>
+    <a href="../../base/prototipo_alta_fidelidade/" class="dropdown-item">Protótipo</a>
 </li>
                                 </ul>
                             </li>
@@ -84,23 +84,23 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Modelagem</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Modelagem</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../modelagem/" class="dropdown-item">Modelagem</a>
+    <a href="../" class="dropdown-item">Modelagem</a>
 </li>
                                     
 <li>
-    <a href="../../modelagem/casos_de_uso/" class="dropdown-item">Casos de Uso</a>
+    <a href="./" class="dropdown-item active" aria-current="page">Casos de Uso</a>
 </li>
                                     
 <li>
-    <a href="../../modelagem/das/" class="dropdown-item">Documento de Arquitetura</a>
+    <a href="../das/" class="dropdown-item">Documento de Arquitetura</a>
 </li>
                                     
 <li>
-    <a href="../../modelagem/diagrama_de_classes/" class="dropdown-item">Diagrama de Classes</a>
+    <a href="../diagrama_de_classes/" class="dropdown-item">Diagrama de Classes</a>
 </li>
                                 </ul>
                             </li>
@@ -122,12 +122,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../mapa_mental/" class="nav-link">
+                                <a rel="prev" href="../" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../pesquisa/" class="nav-link">
+                                <a rel="next" href="../das/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -179,13 +179,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="2"><a href="#introducao" class="nav-link">Introdução</a>
+            <li class="nav-item" data-bs-level="1"><a href="#casos-de-uso" class="nav-link">Casos de Uso</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#descricao-dos-atores" class="nav-link">📌 Descrição dos Atores</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="2"><a href="#metodologia" class="nav-link">Metodologia</a>
+            <li class="nav-item" data-bs-level="2"><a href="#funcionalidades-principais" class="nav-link">📊 Funcionalidades Principais</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#diagrama-de-casos-de-uso" class="nav-link">🎯 Diagrama de Casos de Uso</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -193,97 +200,36 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="introducao">Introdução</h2>
-<p align = "justify">
-A metodologia pode ser definida como a sistematização de métodos e técnicas com o intuito de se alcançar um objetivo. Este documento aborda os métodos e técnica de metodologias, processos e práticas (Scrum, XP, Kanban, RUP) de acordo com o objetivo da equipe e da disciplina.
-</p>
-
-<h2 id="metodologia">Metodologia</h2>
-<p>A equipe utiliza vários métodos e técnicas de diversas metodologias, processos e práticas, para o desenvolvimento. Com o estudo e  experiência da equipe sobre as metodologias ágeis, foi possível identificar aspectos das diversas metodologias, que a equipe utiliza para o desenvolvimento do projeto.</p>
-<p>Metodologias, processos e práticas identificados:</p>
+<h1 id="casos-de-uso">Casos de Uso</h1>
+<p>Os <strong>casos de uso</strong> são representações dos principais fluxos de interação entre os usuários do sistema e suas funcionalidades. Eles ajudam a entender melhor os requisitos e garantem que todos os atores envolvidos consigam atingir seus objetivos dentro da aplicação.</p>
+<h2 id="descricao-dos-atores">📌 Descrição dos Atores</h2>
 <ul>
 <li>
-<p><a href="https://www.../">RUP/UP</a>:<p align = "justify">
-RUP/UP é uma metodologia....
-</p></p>
+<p><strong>Recenseador</strong> 📝<br />
+  Responsável por preencher os formulários com informações coletadas sobre os moradores. Após salvar os dados, ele não pode editá-los.</p>
 </li>
 <li>
-<p><a href="https://www....">POO (OOP Oriented Object Programming)</a>:<p align = "justify">
-POO (OOP) é uma...
-</p></p>
+<p><strong>Administrador</strong> 🔧<br />
+  Possui acesso total ao sistema, podendo gerenciar formulários, editar informações e administrar usuários cadastrados.</p>
 </li>
 <li>
-<p><a href="https://www....">RUP (Rational Unified Process)</a>:<p align = "justify">
-O Rational Unified Process é um Processo de Engenharia de Software. Ele fornece....</p>
+<p><strong>Usuário Público</strong> 👥<br />
+  Pode visualizar as informações disponíveis no sistema, garantindo transparência dos dados coletados.</p>
 </li>
 </ul>
-<p>
-
-- [Kanban](https://www...):</p>
-<p>O sistema kanban é uma metodologia ágil....</p>
-<p align = "justify">
-
-
-## Metodologias de desenvolvimento:
-
-### Versão 1.0
-
-### RUP (Rational Unified Process)
-
-#### Práticas:
-
-- **Desenvolvimento iterativo**: A
-abordagem iterativa é necessária para....
-
-- **Verificação da qualidade de software**: A qualidade deve ser revista com
-respeito aos requisitos com base...
-
-
-### Kanban
-
-<p align = "justify">
-O Kanban é técnica que propõe a utilização de cartões em um quadro...
-</p>
-
-- **Lista de Tarefas**: Contém todas as tarefas do projeto.
-- **Incremento**: Contém as tarefas a serem executadas durante a Sprint.
-- **Em andamento**: Contém as tarefas que estão em andamento.
-- **Revisão**: Contém as tarefas que precisam ser revisadas para conclusão.
-- **Concluido**: Contém as tarefas que já foram revisadas e concluídas.
-
-
-## Conclusão
-
-<p align = "justify">
-
-Com o estudo das metodologias.....
-
-</p>
-
-## Referências
-
-> [1] SCRUM, Disponivel em: https://www....
-
-> [2] Sistema Kanban, Disponivel em: https://www...
-
-> [3] Extreme Programming, Disponivel em: http://www...
-
-> [5] Rational Unified Process, Disponivel em: https://www...
-
-> [6] EXTREME PROGRAMMING, Disponivel em: https://www...
-
-
-## Autor(es)
-
-| Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| 05/mm/xx | 1.0 | Criação  | xxx xxx e xxxxx xxxxx |
-| 06/mm/xx | 1.1 | Adicionado  | xxx xxxx e xxxxx xxxx |
-| 06/mm/XX | 1.2 | Adicionado  | xxx xxxx e xxxxxx xxxxxx |
-| 06/mm/xx | 1.3 | Adicionado xxxx | xxx xxxx e xxxx xxxxx |
-| 06/mm/xx | 1.4 | Adicionadoxxxx | xxxx xxxxx e xxxx xxxxx |
-| mm/mm/xx | 1.5 | Revisão do documento | xxxx xxxxx |
-| mm/mm/xx | 1.6 | Ajuste no topico Scrum | xxxx xxxx e xxxx xxxx |</div>
+<h2 id="funcionalidades-principais">📊 Funcionalidades Principais</h2>
+<ul>
+<li><strong>Cadastro e Login:</strong> Controle de acesso dos usuários ao sistema.  </li>
+<li><strong>Preenchimento de Formulários:</strong> O recenseador insere dados coletados no sistema.  </li>
+<li><strong>Edição de Informações:</strong> O administrador pode corrigir ou atualizar dados.  </li>
+<li><strong>Visualização Pública:</strong> Usuários podem acessar informações relevantes sem edição.  </li>
+<li><strong>Geração de Relatórios:</strong> Todos os atores podem visualizar relatórios consolidados.  </li>
+</ul>
+<h2 id="diagrama-de-casos-de-uso">🎯 Diagrama de Casos de Uso</h2>
+<p>Abaixo está o diagrama representando as interações entre os atores e as funcionalidades do sistema:</p>
+<p><img alt="Diagrama de Casos de Uso" src="../../assets/Casos_de_Uso/Exemplocaso_de_uso_1.png" /></p>
+<hr />
+<p>Este diagrama fornece uma visão clara do funcionamento do sistema, garantindo que todos os requisitos estejam bem definidos e compreendidos.</p></div>
             </div>
         </div>
 
