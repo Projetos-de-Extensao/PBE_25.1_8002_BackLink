@@ -35,4 +35,3 @@ Abaixo está o diagrama representando as interações entre os atores e as funci
 ---
 
 Este diagrama fornece uma visão clara do funcionamento do sistema, garantindo que todos os requisitos estejam bem definidos e compreendidos.
-
