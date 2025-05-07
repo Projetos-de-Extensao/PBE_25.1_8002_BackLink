@@ -4,6 +4,12 @@ from rest_framework.response import Response
 from rest_framework.decorators import action
 from myapp.models import InformacaoDomicilio
 from myapp.serializers import InformacaoDomicilioSerializer
+from myapp.models import InformacaoMorador
+from myapp.serializers import InformacaoMoradorSerializer
+
+class InformacaoMoradorViewSet(viewsets.ModelViewSet):
+    queryset = InformacaoMorador.objects.all()
+    serializer_class = InformacaoMoradorSerializer
 
 class InformacaoDomicilioViewSet(viewsets.ModelViewSet):
     queryset = InformacaoDomicilio.objects.all()

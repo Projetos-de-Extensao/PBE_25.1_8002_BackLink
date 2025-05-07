@@ -53,3 +53,21 @@ class InformacaoDomicilio(models.Model):
 
     def __str__(self):
         return f"Domicílio em {self.municipio}, UF: {self.uf}"
+
+# ...existing code...
+
+class InformacaoMorador(models.Model):
+    SEXO_CHOICES = [
+        ('M', 'Masculino'),
+        ('F', 'Feminino'),
+        ('O', 'Outro'),
+    ]
+
+    nome = models.CharField("Nome do Morador", max_length=100)
+    sobrenome = models.CharField("Sobrenome", max_length=100)
+    sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
+    data_nascimento = models.DateField("Data de Nascimento")
+    idade = models.PositiveIntegerField("Idade")
+
+    def __str__(self):
+        return f"{self.nome} {self.sobrenome} ({self.idade} anos)"
