@@ -1,9 +1,12 @@
 from django.contrib import admin
-from .models import InformacaoDomicilio
-from myapp.models import InformacaoMorador
+from myapp.models import Domicilio, Morador
 
-@admin.register(InformacaoMorador)
-class InformacaoMoradorAdmin(admin.ModelAdmin):
-    list_display = ('nome', 'sobrenome', 'sexo', 'idade')
+@admin.register(Morador)
+class MoradorAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'sobrenome', 'sexo', 'idade', 'domicilios_list')
 
-admin.site.register(InformacaoDomicilio)
+    def domicilios_list(self, obj):
+        return ", ".join(str(dom) for dom in obj.domicilios.all())
+    domicilios_list.short_description = "Domicilios"
+
+admin.site.register(Domicilio)

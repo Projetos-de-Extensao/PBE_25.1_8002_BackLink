@@ -1,8 +1,25 @@
 from django.db import models
-from django.db import models
+from django.contrib.auth.models import User
 
-class InformacaoDomicilio(models.Model):
+
+class Morador(User):
+    SEXO_CHOICES = [
+        ('M', 'Masculino'),
+        ('F', 'Feminino'),
+        ('O', 'Outro'),
+    ]
     
+    nome = models.CharField("Nome do Morador", max_length=100)
+    sobrenome = models.CharField("Sobrenome", max_length=100)
+    sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
+    data_nascimento = models.DateField("Data de Nascimento")
+    idade = models.PositiveIntegerField("Idade")
+
+    def __str__(self):
+        return f"{self.nome} {self.sobrenome} ({self.idade} anos)"
+
+
+class Domicilio(models.Model):
     uf = models.CharField("UF", max_length=2)
     municipio = models.CharField("Município", max_length=100)
     distrito = models.CharField("Distrito", max_length=10)
@@ -13,16 +30,25 @@ class InformacaoDomicilio(models.Model):
     seq_endereco = models.CharField("Seq Endereço", max_length=10)
     seq_coletivo = models.CharField("Seq Coletivo", max_length=10, blank=True, null=True)
     seq_especie = models.CharField("Seq Espécie", max_length=10, blank=True, null=True)
+    
+    morador = models.ForeignKey(
+        Morador,
+        default= 1,
+        on_delete=models.CASCADE,
+        related_name="domicilios"
+    )
 
-    # Espécie de domicílio
     ESPECIE_CHOICES = [
         ('1', 'Domicílio Particular Permanente Ocupado'),
         ('5', 'Domicílio Particular Improvisado Ocupado'),
         ('6', 'Domicílio Coletivo com Morador'),
     ]
-    especie_domicilio = models.CharField("Espécie de Domicílio Ocupado", max_length=1, choices=ESPECIE_CHOICES)
+    especie_domicilio = models.CharField(
+        "Espécie de Domicílio Ocupado",
+        max_length=1,
+        choices=ESPECIE_CHOICES
+    )
 
-    # Tipo de domicílio
     TIPO_CHOICES = [
         ('011', 'Casa'),
         ('012', 'Casa de vila ou em condomínio'),
@@ -49,25 +75,13 @@ class InformacaoDomicilio(models.Model):
         ('506', 'Veículos (Carros, Caminhões, Trailers, Barcos etc.)'),
         ('071', 'Asilo ou outra instituição de longa permanência para idosos'),
     ]
-    tipo = models.CharField("Tipo", max_length=3, choices=TIPO_CHOICES)
+    tipo = models.CharField(
+        "Tipo",
+        max_length=3,
+        choices=TIPO_CHOICES
+    )
 
     def __str__(self):
         return f"Domicílio em {self.municipio}, UF: {self.uf}"
 
-# ...existing code...
 
-class InformacaoMorador(models.Model):
-    SEXO_CHOICES = [
-        ('M', 'Masculino'),
-        ('F', 'Feminino'),
-        ('O', 'Outro'),
-    ]
-
-    nome = models.CharField("Nome do Morador", max_length=100)
-    sobrenome = models.CharField("Sobrenome", max_length=100)
-    sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
-    data_nascimento = models.DateField("Data de Nascimento")
-    idade = models.PositiveIntegerField("Idade")
-
-    def __str__(self):
-        return f"{self.nome} {self.sobrenome} ({self.idade} anos)"

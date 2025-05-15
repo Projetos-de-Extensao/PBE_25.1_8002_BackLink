@@ -1,11 +1,9 @@
-
 from rest_framework import serializers
-from myapp.models import InformacaoDomicilio
-from myapp.models import InformacaoMorador
+from myapp.models import Domicilio, Morador
 
-class InformacaoDomicilioSerializer(serializers.ModelSerializer):
+class DomicilioSerializer(serializers.ModelSerializer):
     class Meta:
-        model = InformacaoDomicilio
+        model = Domicilio
         fields = [
             'id',
             'uf',
@@ -22,15 +20,15 @@ class InformacaoDomicilioSerializer(serializers.ModelSerializer):
             'tipo',
         ]
         read_only_fields = ['id']
-        
 
-class InformacaoMoradorSerializer(serializers.ModelSerializer):
+class MoradorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = InformacaoMorador
+        model = Morador
         fields = [
             'id',
             'nome',
             'sobrenome',
+            'domicilio',
             'sexo',
             'data_nascimento',
             'idade',

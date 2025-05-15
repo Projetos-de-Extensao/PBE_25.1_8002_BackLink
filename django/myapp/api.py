@@ -1,23 +1,20 @@
-
-from rest_framework import viewsets, generics
+from rest_framework import viewsets
 from rest_framework.response import Response
 from rest_framework.decorators import action
-from myapp.models import InformacaoDomicilio
-from myapp.serializers import InformacaoDomicilioSerializer
-from myapp.models import InformacaoMorador
-from myapp.serializers import InformacaoMoradorSerializer
+from myapp.models import Domicilio, Morador
+from myapp.serializers import DomicilioSerializer, MoradorSerializer
 
-class InformacaoMoradorViewSet(viewsets.ModelViewSet):
-    queryset = InformacaoMorador.objects.all()
-    serializer_class = InformacaoMoradorSerializer
+class MoradorViewSet(viewsets.ModelViewSet):
+    queryset = Morador.objects.all()
+    serializer_class = MoradorSerializer
 
-class InformacaoDomicilioViewSet(viewsets.ModelViewSet):
-    queryset = InformacaoDomicilio.objects.all()
-    serializer_class = InformacaoDomicilioSerializer
+class DomicilioViewSet(viewsets.ModelViewSet):
+    queryset = Domicilio.objects.all()
+    serializer_class = DomicilioSerializer
 
     @action(detail=False, methods=['get'])
     def disponiveis(self, request):
-        informacoes_domicilio = InformacaoDomiclio.objects.filter(disponivel=True)
-        serializer = self.get_serializer(informacoes_domicilio, many=True)
+        domicilios = Domicilio.objects.filter(disponivel=True)
+        serializer = self.get_serializer(domicilios, many=True)
         return Response(serializer.data)
 
