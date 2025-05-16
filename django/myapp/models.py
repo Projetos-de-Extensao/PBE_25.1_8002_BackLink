@@ -14,6 +14,8 @@ class Morador(User):
     sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
     data_nascimento = models.DateField("Data de Nascimento")
     idade = models.PositiveIntegerField("Idade")
+    
+    
 
     def __str__(self):
         return f"{self.nome} {self.sobrenome} ({self.idade} anos)"

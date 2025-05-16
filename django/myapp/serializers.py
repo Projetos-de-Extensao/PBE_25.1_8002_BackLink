@@ -22,6 +22,7 @@ class DomicilioSerializer(serializers.ModelSerializer):
         read_only_fields = ['id']
 
 class MoradorSerializer(serializers.ModelSerializer):
+    domicilio = DomicilioSerializer()
     class Meta:
         model = Morador
         fields = [
@@ -32,5 +33,6 @@ class MoradorSerializer(serializers.ModelSerializer):
             'sexo',
             'data_nascimento',
             'idade',
+          
         ]
         read_only_fields = ['id']
