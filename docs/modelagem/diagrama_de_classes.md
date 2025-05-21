@@ -61,12 +61,16 @@ Coleta de Dados: Os formulários são essenciais para a coleta de diversos tipos
 
 Dashboard e Resultados: Os resultados colhidos e processados alimentam o dashboard, que é onde as informações são centralizadas e visualizadas.
   
-
-
-
-
+-------------------------------------------------NOVO DIAGRAMA DE CLASSES----------------------------------------------------------------------------------------------------------------------------------
 
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes.png)](../assets/diagrama_de_classes/diagrama_de_classes.png)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 ### Versão 1.1
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)
@@ -85,6 +89,11 @@ Dashboard e Resultados: Os resultados colhidos e processados alimentam o dashboa
 |US01, US06, US07, US08|Usuário|
 |US45|Rodada|
 |US35|Partida|
+
+
+
+
+
 
 ## Conclusão
 
