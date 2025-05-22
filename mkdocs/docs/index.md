@@ -1,7 +1,11 @@
-# Back-Link 
+# Bem vindo do Grupo Back-Link
 
-**Número do Grupo**: Gurpo I<br>
-**Turma**: 8002<br>
+> Visite nosso repositório do [GitHub](https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink).
+
+> Veja a apresentação sobre o nosso processo de [Documentação](https://backlinkdocumentacao.my.canva.site/)
+
+**Número do Grupo**: Gurpo 1<br>
+**Código da Disciplina**: IBM8936<br>
 
 ## Alunos
 |Matrícula | Aluno |
@@ -13,10 +17,7 @@
 | 202402011359  |  Felipe Sales |
 
 ## Sobre 
-Será um aplicativo Web, para que seja feita a coleta de dados dos moradores da Ilha Primeira. Para auxiliar a população ter o controle maior sobre os problemas da ilha e como resolver-los.
-
-## Prototipo
-### [Figma](https://www.figma.com/design/uDwCBF3Ib2rCVXKtO2dgR1/AP1-Back-end?node-id=0-1&t=YnS6dCB66bI9mXJn-1)
+Descreva o seu projeto em linhas gerais. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
