@@ -35,9 +35,25 @@ class Domicilio(models.Model):
     
     morador = models.ForeignKey(
         Morador,
-        default= 1,
+        default=1,
         on_delete=models.CASCADE,
         related_name="domicilios"
+    )
+
+    quantidade_moradores = models.PositiveIntegerField(
+        "Quantidade de Moradores",
+        help_text="Número de pessoas que moram neste domicílio",
+        default=1
+    )
+    acesso_agua_rede = models.BooleanField(
+        "Acesso geral à rede de distribuição de água?",
+        help_text="O domicílio tem acesso geral à rede de distribuição de água?",
+        default=False
+    )
+    quantidade_comodos = models.PositiveIntegerField(
+        "Quantidade de Cômodos",
+        help_text="Número de cômodos deste domicílio",
+        default=1
     )
 
     ESPECIE_CHOICES = [
