@@ -68,7 +68,7 @@ class Domicilio(models.Model):
         "Quantidade de Moradores",
         help_text="Número de pessoas que moram neste domicílio",
         default=1
-    )    git branch --set-upstream-to=origin/main master
+    )   # git branch --set-upstream-to=origin/main master
     acesso_agua_rede = models.BooleanField(
         "Acesso geral à rede de distribuição de água?",
         help_text="O domicílio tem acesso geral à rede de distribuição de água?",
@@ -79,6 +79,7 @@ class Domicilio(models.Model):
         help_text="Número de cômodos deste domicílio",
         default=1
     )
+    
 
     ESPECIE_CHOICES = [
         ('1', 'Domicílio Particular Permanente Ocupado'),
