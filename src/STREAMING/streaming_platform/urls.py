@@ -23,7 +23,7 @@ schema_view = get_schema_view(
 urlpatterns = [
     # Suas outras URLs
     path('admin/', admin.site.urls),
-    path('api/', include('app.urls')),  # Inclua as URLs do seu app
+    path('api/', include('content_app.urls')),  
 
     # URLs do Swagger
     re_path(r'^swagger/$', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
