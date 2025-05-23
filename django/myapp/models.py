@@ -14,6 +14,30 @@ class Morador(User):
     sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
     data_nascimento = models.DateField("Data de Nascimento")
     idade = models.PositiveIntegerField("Idade")
+
+    RELACAO_CHOICES = [
+        ('01', 'Pessoa responsável pelo domicílio'),
+        ('02', 'Cônjuge ou companheiro(a) de sexo diferente'),
+        ('03', 'Cônjuge ou companheiro(a) do mesmo sexo'),
+        ('04', 'Filho(a) do responsável e do cônjuge'),
+        ('05', 'Filho(a) somente do responsável'),
+        ('06', 'Enteado(a)'),
+        ('07', 'Genro ou nora'),
+        ('08', 'Pai, mãe, padrasto ou madrasta'),
+        ('09', 'Sogro(a)'),
+        ('10', 'Neto(a)'),
+        ('11', 'Bisneto(a)'),
+        ('12', 'Irmão ou irmã'),
+        ('13', 'Avô ou avó'),
+        ('14', 'Outro parente'),
+        ('15', 'Agregado(a)'),
+        ('16', 'Convivente'),
+        ('17', 'Pensionista'),
+        ('18', 'Empregado(a) doméstico(a)'),
+        ('19', 'Parente do(a) empregado(a) doméstico(a)'),
+        ('20', 'Individual em domicílio coletivo'),
+    ]
+    relacao_com_responsavel = models.CharField("Relação com o Responsável pelo Domicílio", max_length=2, choices=RELACAO_CHOICES,  default=1)
     
     
 
