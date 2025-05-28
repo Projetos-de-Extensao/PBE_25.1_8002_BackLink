@@ -8,7 +8,6 @@ class Morador(User):
         ('F', 'Feminino'),
         ('O', 'Outro'),
     ]
-    
     nome = models.CharField("Nome do Morador", max_length=100)
     sobrenome = models.CharField("Sobrenome", max_length=100)
     sexo = models.CharField("Sexo", max_length=1, choices=SEXO_CHOICES)
@@ -38,8 +37,176 @@ class Morador(User):
         ('20', 'Individual em domicílio coletivo'),
     ]
     relacao_com_responsavel = models.CharField("Relação com o Responsável pelo Domicílio", max_length=2, choices=RELACAO_CHOICES,  default=1)
-    
-    
+
+    # Campos que pertencem ao morador
+    registro_nascimento = models.CharField(
+        "Registro de nascimento",
+        max_length=50,
+        choices=[
+            ('cartorio', 'Do cartório'),
+            ('indigena', 'Registro administrativo de nascimento indígena'),
+            ('nao_tem', 'Não tem'),
+            ('nao_sabe', 'Não sabe'),
+        ],
+        blank=True, null=True
+    )
+    possui_conjuge = models.BooleanField(
+        "Possui cônjuge ou companheiro(a)?", default=False
+    )
+    vive_com_conjuge = models.BooleanField(
+        "Vive em companhia de cônjuge ou companheiro(a)?", default=False
+    )
+    nome_conjuge = models.CharField(
+        "Nome do cônjuge", max_length=100, blank=True, null=True
+    )
+    tipo_uniao = models.CharField(
+        "Tipo da união",
+        max_length=30,
+        choices=[
+            ('civil_religioso', 'Casamento civil e religioso'),
+            ('civil', 'Só casamento civil'),
+            ('religioso', 'Só casamento religioso'),
+            ('consensual', 'União consensual'),
+        ],
+        blank=True, null=True
+    )
+    trabalhou_remunerado = models.BooleanField(
+        "Trabalhou ou estagiou em atividade remunerada?", default=False
+    )
+    qtd_trabalhos = models.PositiveIntegerField(
+        "Quantos trabalhos tinha nos últimos meses?", default=0, blank=True, null=True
+    )
+    ocupacao = models.CharField(
+        "Ocupação, cargo ou função", max_length=100, blank=True, null=True
+    )
+    atividade_empresa = models.CharField(
+        "Principal atividade do negócio ou empresa", max_length=100, blank=True, null=True
+    )
+    carteira_assinada = models.BooleanField(
+        "Carteira de trabalho assinada?", default=False
+    )
+    empresa_cnpj = models.BooleanField(
+        "Empresa registrada no CNPJ?", default=False
+    )
+    faixa_rendimento = models.CharField(
+        "Faixa de rendimento",
+        max_length=2,
+        choices=[
+            ('1', '1,00 a 500,00'),
+            ('2', '501,00 a 1.000,00'),
+            ('3', '1.001,00 a 2.000,00'),
+            ('4', '2.001,00 a 3.000,00'),
+            ('5', '3.001,00 a 5.000,00'),
+            ('6', '5.001,00 a 10.000,00'),
+            ('7', '10.001,00 a 20.000,00'),
+            ('8', '20.001,00 a 100.000'),
+            ('9', '100.001 ou mais'),
+        ],
+        blank=True, null=True
+    )
+    dificuldade_enxergar = models.CharField(
+        "Dificuldade para enxergar",
+        max_length=1,
+        choices=[
+            ('1', 'Tem, não consegue de modo algum'),
+            ('2', 'Tem muita dificuldade'),
+            ('3', 'Tem alguma dificuldade'),
+            ('4', 'Não tem dificuldade'),
+        ],
+        blank=True, null=True
+    )
+    dificuldade_andar = models.CharField(
+        "Dificuldade para andar ou subir degraus",
+        max_length=1,
+        choices=[
+            ('1', 'Tem muita dificuldade'),
+            ('2', 'Tem, não consegue de modo algum'),
+            ('3', 'Tem alguma dificuldade'),
+            ('4', 'Não tem dificuldade'),
+        ],
+        blank=True, null=True
+    )
+    sabe_ler_escrever = models.BooleanField(
+        "Sabe ler e escrever?", default=False
+    )
+    frequenta_escola = models.CharField(
+        "Frequenta escola ou creche?",
+        max_length=1,
+        choices=[
+            ('1', 'Sim'),
+            ('2', 'Não, mas já frequentou'),
+            ('3', 'Não, nunca frequentou'),
+        ],
+        blank=True, null=True
+    )
+    curso_frequentado = models.CharField(
+        "Curso que frequenta",
+        max_length=2,
+        choices=[
+            ('1', 'Pré escola'),
+            ('2', 'Creche'),
+            ('3', 'Alfabetização de jovens e adultos'),
+            ('4', 'Regular do ensino fundamental'),
+            ('5', 'EJA do ensino fundamental'),
+            ('6', 'Regular do ensino médio'),
+            ('7', 'Superior de graduação'),
+            ('8', 'EJA do ensino médio'),
+            ('9', 'Especialização de nível superior'),
+            ('10', 'Mestrado'),
+            ('11', 'Doutorado'),
+            ('12', 'Nenhum'),
+        ],
+        blank=True, null=True
+    )
+    concluiu_superior = models.BooleanField(
+        "Já concluiu algum outro curso superior de graduação?", default=False
+    )
+    local_trabalho = models.CharField(
+        "Local de trabalho", max_length=100, blank=True, null=True
+    )
+    retorna_casa = models.BooleanField(
+        "Retorna do trabalho para casa 3 dias ou mais na semana?", default=False
+    )
+    tempo_casa_trabalho_horas = models.PositiveIntegerField(
+        "Horas entre casa e trabalho", default=0, blank=True, null=True
+    )
+    tempo_casa_trabalho_minutos = models.PositiveIntegerField(
+        "Minutos entre casa e trabalho", default=0, blank=True, null=True
+    )
+    principal_transporte = models.CharField(
+        "Principal meio de transporte",
+        max_length=2,
+        choices=[
+            ('1', 'A pé'),
+            ('2', 'Bicicleta'),
+            ('3', 'Motocicleta'),
+            ('4', 'Mototáxi'),
+            ('5', 'Automóvel'),
+            ('6', 'Táxi ou assemelhados'),
+            ('7', 'Van, perua ou assemelhados'),
+            ('8', 'Ônibus'),
+            ('11', 'Caminhonete ou caminhão adaptado'),
+            ('12', 'Embarcação de médio e grande porte'),
+            ('13', 'Embarcação de pequeno porte'),
+            ('14', 'Outros'),
+        ],
+        blank=True, null=True
+    )
+    autismo_diagnostico = models.BooleanField(
+        "Já foi diagnosticado(a) com autismo por profissional de saúde?", default=False
+    )
+    contato_nome = models.CharField(
+        "Nome para contato", max_length=100, blank=True, null=True
+    )
+    contato_email = models.EmailField(
+        "E-mail para contato", blank=True, null=True
+    )
+    contato_telefone = models.CharField(
+        "Telefone para contato", max_length=20, blank=True, null=True
+    )
+    religiao_culto = models.CharField(
+        "Qual é sua religião ou culto?", max_length=100, blank=True, null=True
+    )
 
     def __str__(self):
         return f"{self.nome} {self.sobrenome} ({self.idade} anos)"
@@ -56,7 +223,7 @@ class Domicilio(models.Model):
     seq_endereco = models.CharField("Seq Endereço", max_length=10)
     seq_coletivo = models.CharField("Seq Coletivo", max_length=10, blank=True, null=True)
     seq_especie = models.CharField("Seq Espécie", max_length=10, blank=True, null=True)
-    
+
     morador = models.ForeignKey(
         Morador,
         default=1,
@@ -79,7 +246,6 @@ class Domicilio(models.Model):
         help_text="Número de cômodos deste domicílio",
         default=1
     )
-    
 
     ESPECIE_CHOICES = [
         ('1', 'Domicílio Particular Permanente Ocupado'),
@@ -124,7 +290,6 @@ class Domicilio(models.Model):
         choices=TIPO_CHOICES
     )
 
-    # Novos campos solicitados
     pontos_coleta_lixo = models.TextField(
         "Pontos de coleta de lixo específicos da residência", blank=True, null=True
     )
@@ -185,7 +350,6 @@ class Domicilio(models.Model):
         "Tem uma máquina de lavar roupa?", default=False
     )
 
-    # Situação do imóvel
     SITUACAO_IMOVEL_CHOICES = [
         ('A', 'Ainda pagando'),
         ('L', 'Alugado'),
@@ -201,189 +365,5 @@ class Domicilio(models.Model):
 
     def __str__(self):
         return f"Domicílio em {self.municipio}, UF: {self.uf}"
-
-
-    registro_nascimento = models.CharField(
-        "Registro de nascimento",
-        max_length=50,
-        choices=[
-            ('cartorio', 'Do cartório'),
-            ('indigena', 'Registro administrativo de nascimento indígena'),
-            ('nao_tem', 'Não tem'),
-            ('nao_sabe', 'Não sabe'),
-        ],
-        blank=True, null=True
-    )
-    possui_conjuge = models.BooleanField(
-        "Possui cônjuge ou companheiro(a)?", default=False
-    )
-    vive_com_conjuge = models.BooleanField(
-        "Vive em companhia de cônjuge ou companheiro(a)?", default=False
-    )
-    nome_conjuge = models.CharField(
-        "Nome do cônjuge", max_length=100, blank=True, null=True
-    )
-    tipo_uniao = models.CharField(
-        "Tipo da união",
-        max_length=30,
-        choices=[
-            ('civil_religioso', 'Casamento civil e religioso'),
-            ('civil', 'Só casamento civil'),
-            ('religioso', 'Só casamento religioso'),
-            ('consensual', 'União consensual'),
-        ],
-        blank=True, null=True
-    )
-
-    # Trabalho
-    trabalhou_remunerado = models.BooleanField(
-        "Trabalhou ou estagiou em atividade remunerada?", default=False
-    )
-    qtd_trabalhos = models.PositiveIntegerField(
-        "Quantos trabalhos tinha nos últimos meses?", default=0, blank=True, null=True
-    )
-    ocupacao = models.CharField(
-        "Ocupação, cargo ou função", max_length=100, blank=True, null=True
-    )
-    atividade_empresa = models.CharField(
-        "Principal atividade do negócio ou empresa", max_length=100, blank=True, null=True
-    )
-    carteira_assinada = models.BooleanField(
-        "Carteira de trabalho assinada?", default=False
-    )
-    empresa_cnpj = models.BooleanField(
-        "Empresa registrada no CNPJ?", default=False
-    )
-    faixa_rendimento = models.CharField(
-        "Faixa de rendimento",
-        max_length=2,
-        choices=[
-            ('1', '1,00 a 500,00'),
-            ('2', '501,00 a 1.000,00'),
-            ('3', '1.001,00 a 2.000,00'),
-            ('4', '2.001,00 a 3.000,00'),
-            ('5', '3.001,00 a 5.000,00'),
-            ('6', '5.001,00 a 10.000,00'),
-            ('7', '10.001,00 a 20.000,00'),
-            ('8', '20.001,00 a 100.000'),
-            ('9', '100.001 ou mais'),
-        ],
-        blank=True, null=True
-    )
-
-    # Deficiência
-    dificuldade_enxergar = models.CharField(
-        "Dificuldade para enxergar",
-        max_length=1,
-        choices=[
-            ('1', 'Tem, não consegue de modo algum'),
-            ('2', 'Tem muita dificuldade'),
-            ('3', 'Tem alguma dificuldade'),
-            ('4', 'Não tem dificuldade'),
-        ],
-        blank=True, null=True
-    )
-    dificuldade_andar = models.CharField(
-        "Dificuldade para andar ou subir degraus",
-        max_length=1,
-        choices=[
-            ('1', 'Tem muita dificuldade'),
-            ('2', 'Tem, não consegue de modo algum'),
-            ('3', 'Tem alguma dificuldade'),
-            ('4', 'Não tem dificuldade'),
-        ],
-        blank=True, null=True
-    )
-
-    # Educação
-    sabe_ler_escrever = models.BooleanField(
-        "Sabe ler e escrever?", default=False
-    )
-    frequenta_escola = models.CharField(
-        "Frequenta escola ou creche?",
-        max_length=1,
-        choices=[
-            ('1', 'Sim'),
-            ('2', 'Não, mas já frequentou'),
-            ('3', 'Não, nunca frequentou'),
-        ],
-        blank=True, null=True
-    )
-    curso_frequentado = models.CharField(
-        "Curso que frequenta",
-        max_length=2,
-        choices=[
-            ('1', 'Pré escola'),
-            ('2', 'Creche'),
-            ('3', 'Alfabetização de jovens e adultos'),
-            ('4', 'Regular do ensino fundamental'),
-            ('5', 'EJA do ensino fundamental'),
-            ('6', 'Regular do ensino médio'),
-            ('7', 'Superior de graduação'),
-            ('8', 'EJA do ensino médio'),
-            ('9', 'Especialização de nível superior'),
-            ('10', 'Mestrado'),
-            ('11', 'Doutorado'),
-            ('12', 'Nenhum'),
-        ],
-        blank=True, null=True
-    )
-    concluiu_superior = models.BooleanField(
-        "Já concluiu algum outro curso superior de graduação?", default=False
-    )
-
-    # Deslocamento para trabalho
-    local_trabalho = models.CharField(
-        "Local de trabalho", max_length=100, blank=True, null=True
-    )
-    retorna_casa = models.BooleanField(
-        "Retorna do trabalho para casa 3 dias ou mais na semana?", default=False
-    )
-    tempo_casa_trabalho_horas = models.PositiveIntegerField(
-        "Horas entre casa e trabalho", default=0, blank=True, null=True
-    )
-    tempo_casa_trabalho_minutos = models.PositiveIntegerField(
-        "Minutos entre casa e trabalho", default=0, blank=True, null=True
-    )
-    principal_transporte = models.CharField(
-        "Principal meio de transporte",
-        max_length=2,
-        choices=[
-            ('1', 'A pé'),
-            ('2', 'Bicicleta'),
-            ('3', 'Motocicleta'),
-            ('4', 'Mototáxi'),
-            ('5', 'Automóvel'),
-            ('6', 'Táxi ou assemelhados'),
-            ('7', 'Van, perua ou assemelhados'),
-            ('8', 'Ônibus'),
-            ('11', 'Caminhonete ou caminhão adaptado'),
-            ('12', 'Embarcação de médio e grande porte'),
-            ('13', 'Embarcação de pequeno porte'),
-            ('14', 'Outros'),
-        ],
-        blank=True, null=True
-    )
-
-    # Autismo
-    autismo_diagnostico = models.BooleanField(
-        "Já foi diagnosticado(a) com autismo por profissional de saúde?", default=False
-    )
-
-    # Dados de contato
-    contato_nome = models.CharField(
-        "Nome para contato", max_length=100, blank=True, null=True
-    )
-    contato_email = models.EmailField(
-        "E-mail para contato", blank=True, null=True
-    )
-    contato_telefone = models.CharField(
-        "Telefone para contato", max_length=20, blank=True, null=True
-    )
-
-    # Religião ou culto
-    religiao_culto = models.CharField(
-        "Qual é sua religião ou culto?", max_length=100, blank=True, null=True
-    )
 
 
