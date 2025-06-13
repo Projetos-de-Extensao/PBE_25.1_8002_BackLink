@@ -3,6 +3,9 @@
 **Número do Grupo**: Gurpo I<br>
 **Turma**: 8002<br>
 
+https://www.canva.com/design/DAGqLHGIQuQ/YUoiUAlUWAOLX6IBuxWZ-A/edit?utm_content=DAGqLHGIQuQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
