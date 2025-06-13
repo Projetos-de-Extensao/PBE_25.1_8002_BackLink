@@ -25,7 +25,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # 3. Layout do Dashboard com abas e tabela
 app.layout = dbc.Container([
-    dbc.Row(dbc.Col(html.H1("Painel do Censo 2022 - IBGE", className="text-center my-4"))),
+    dbc.Row(dbc.Col(html.H1("Painel do Censo - Ilha Primeira", className="text-center my-4"))),
     dcc.Tabs([
         dcc.Tab(label='Gráficos', children=[
             dbc.Row([
