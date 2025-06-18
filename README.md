@@ -3,7 +3,8 @@
 **Número do Grupo**: Gurpo I<br>
 **Turma**: 8002<br>
 
-https://www.canva.com/design/DAGqLHGIQuQ/YUoiUAlUWAOLX6IBuxWZ-A/edit?utm_content=DAGqLHGIQuQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+## Apresentação
+[Canva](https://www.canva.com/design/DAGqLHGIQuQ/YUoiUAlUWAOLX6IBuxWZ-A/edit?utm_content=DAGqLHGIQuQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 ## Alunos
@@ -28,12 +29,12 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 
 ## Instalação 
 **Linguagens**: Python + Django <br>
-**Tecnologias**: MkDocs, PlantUML<br>
+**Tecnologias**: MkDocs, PlantUML, SQLite, Git + GitHub<br>
 
 ## Tutorial de instalação
 1. Clonar o repositorio no terminal
 ```terminal
-git clone 
+git clone https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink.git
 ```
 ```
 cd src
@@ -61,23 +62,17 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-Acesse o projeto: http://127.0.0.1:8000
+Acesse o projeto: http://127.0.0.1:8000  
+
 7. Acessar o Painel de ADMIN: http://127.0.0.1:8000/admin/
-8. Documentação Interativa (Swagger), a documentação da API estará disponível em: http://127.0.0.1:8000/swagger/
-
-
-
-
-
-
-
-
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+     
+8. Documentação Interativa (Swagger), a documentação da API estará disponível em: http://127.0.0.1:8000/swagger/  
+   
+## O sistema permite:
+- Preenchimento de dados demográficos por meio de um formulário digital acessível.
+- Armazenamento automático das informações em banco de dados local.
+- Exportação estruturada dos dados coletados, facilitando análises e relatórios.
+   
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
