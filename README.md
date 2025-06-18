@@ -62,14 +62,16 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 Acesse o projeto: http://127.0.0.1:8000  
-7. Acessar o Painel de ADMIN: http://127.0.0.1:8000/admin/  
+
+7. Acessar o Painel de ADMIN: http://127.0.0.1:8000/admin/
+     
 8. Documentação Interativa (Swagger), a documentação da API estará disponível em: http://127.0.0.1:8000/swagger/  
-
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+   
+## O sistema permite:
+- Preenchimento de dados demográficos por meio de um formulário digital acessível.
+- Armazenamento automático das informações em banco de dados local.
+- Exportação estruturada dos dados coletados, facilitando análises e relatórios.
+   
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
