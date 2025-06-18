@@ -31,7 +31,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 2. MORADORES -->
     <fieldset>
       <legend>2. Moradores</legend>
@@ -55,7 +54,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 3. CARACTERÍSTICAS DO DOMICÍLIO -->
     <fieldset>
       <legend>3. Características do Domicílio</legend>
@@ -79,7 +77,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 4. IDENTIFICAÇÃO ÉTNICO-RACIAL -->
     <fieldset>
       <legend>4. Etnia/Raça</legend>
@@ -105,7 +102,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 5. REGISTRO CIVIL -->
     <fieldset>
       <legend>5. Registro Civil</legend>
@@ -118,7 +114,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 6. EDUCAÇÃO -->
     <fieldset>
       <legend>6. Educação</legend>
@@ -129,7 +124,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 7. TRABALHO E RENDIMENTO -->
     <fieldset>
       <legend>7. Trabalho e Renda</legend>
@@ -151,7 +145,6 @@
         </select>
       </label>
     </fieldset>
-
     <!-- 8. MORTALIDADE -->
     <fieldset>
       <legend>8. Mortalidade</legend>
@@ -164,7 +157,6 @@
       <label>Nome do falecido: <input name="nomeFalecido"></label>
       <label>Idade ao falecer: <input type="number" name="idadeFalecido"></label>
     </fieldset>
-
     <!-- 9. PRESTAÇÃO DAS INFORMAÇÕES -->
     <fieldset>
       <legend>9. Quem Preencheu?</legend>
@@ -177,13 +169,11 @@
       </label>
       <label>Nome do informante (se outro morador): <input name="nomeInformante"></label>
     </fieldset>
-
     <button type="submit">Enviar</button>
     <button type="button" onclick="exportToJSON()">Exportar para JSON</button>
     <button type="button" onclick="exportToCSV()">Exportar para CSV</button>
 
   </form>
-
   <script src="script.js"></script>
 </body>
 </html>
