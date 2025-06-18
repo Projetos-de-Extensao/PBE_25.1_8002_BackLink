@@ -33,7 +33,7 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 ## Tutorial de instalação
 1. Clonar o repositorio no terminal
 ```terminal
-git clone 
+git clone https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink.git
 ```
 ```
 cd src
@@ -61,17 +61,9 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-Acesse o projeto: http://127.0.0.1:8000
-7. Acessar o Painel de ADMIN: http://127.0.0.1:8000/admin/
-8. Documentação Interativa (Swagger), a documentação da API estará disponível em: http://127.0.0.1:8000/swagger/
-
-
-
-
-
-
-
-
+Acesse o projeto: http://127.0.0.1:8000  
+7. Acessar o Painel de ADMIN: http://127.0.0.1:8000/admin/  
+8. Documentação Interativa (Swagger), a documentação da API estará disponível em: http://127.0.0.1:8000/swagger/  
 
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
