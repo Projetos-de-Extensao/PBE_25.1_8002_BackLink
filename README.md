@@ -47,6 +47,16 @@ cd src
 ```
 python -m venv venv
 ```
+Linux/macOS
+```
+source venv/bin/activate
+```
+Windows
+```
+venv\Scripts\activate
+```
+
+
 3. Instalar as Dependências
 ```
 pip install -r requirements.txt
