@@ -29,7 +29,7 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 
 ## Instalação 
 **Linguagens**: Python + Django <br>
-**Tecnologias**: MkDocs, PlantUML<br>
+**Tecnologias**: MkDocs, PlantUML, SQLite, Git + GitHub<br>
 
 ## Tutorial de instalação
 1. Clonar o repositorio no terminal
