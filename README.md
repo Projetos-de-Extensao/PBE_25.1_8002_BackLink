@@ -37,8 +37,12 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 git clone https://github.com/Projetos-de-Extensao/PBE_25.1_8002_BackLink.git
 ```
 ```
+cd PBE_25.1_8002_BackLink
+```
+```
 cd src
 ```
+
 2. Criar e Ativar o Ambiente Virtual bash
 ```
 python -m venv venv
